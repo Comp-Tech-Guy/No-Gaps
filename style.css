@@ -10,6 +10,10 @@
   position:relative;  /* To have every absolute position element to be inside this wrapper */
 }
 
+#zen-appcontent-wrapper{
+  position:relative;
+}
+
 /* To have a background color */
 #zen-appcontent-navbar-container:before{
   content:"";
@@ -21,3 +25,4 @@
   left:0;
   z-index: -10;
 }
+
