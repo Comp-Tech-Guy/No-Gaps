@@ -3,7 +3,6 @@
   position: absolute !important; /* To remove the top navbar border gap */
   height: 100% !important;
   width: 100% !important;
-  background:rgba(0,0,0,0.9);
 }
 
 #zen-appcontent-navbar-wrapper{
@@ -25,4 +24,5 @@
   left:0;
   z-index: -10;
 }
+
 
