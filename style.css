@@ -1,0 +1,23 @@
+#zen-appcontent-wrapper #zen-tabbox-wrapper{
+  margin:0px !important; /* To remove the extra border gaps */
+  position: absolute !important; /* To remove the top navbar border gap */
+  height: 100% !important;
+  width: 100% !important;
+  background:rgba(0,0,0,0.9);
+}
+
+#zen-appcontent-navbar-wrapper{
+  position:relative;  /* To have every absolute position element to be inside this wrapper */
+}
+
+/* To have a background color */
+#zen-appcontent-navbar-container:before{
+  content:"";
+  position:absolute;
+  background:rgba(0,0,0,0.9);
+  width:100%;
+  height:100%;
+  top:0;
+  left:0;
+  z-index: -10;
+}
