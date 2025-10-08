@@ -49,12 +49,13 @@ This method automatically handles setup and updates for you.
 
 ### 🧠 Manual Installation (Advanced)
 
-1. Download the **latest release** of *No-Gaps* from this repository.  
-2. Open `about:profiles` in Firefox.  
-3. Under your profile, click **“Open Folder”** which the folder path says *Roaming* in between.  
-4. Inside that folder, open the `chrome` directory (create one if it doesn’t exist).  
-5. Place the mod files inside the `chrome` folder.  
-6. Open `about:config` and add no-gap.mode-select preference which is number and set it to `1` (for only compact mode) or `2` (for both compact and non compact mode).
+1. Go to `about:config` and search for `toolkit.legacyUserProfileCustomizations.stylesheets`, then set it to `true`. 
+2. Download the **latest release** of *No-Gaps* from this repository.  
+3. Open `about:profiles` in Firefox.  
+4. Under your profile, click **“Open Folder”** which the folder path says *Roaming* in between.  
+5. Inside that folder, open the `chrome` directory (create one if it doesn’t exist).  
+6. Place the mod files inside the `chrome` folder.  
+7. Open `about:config` and add no-gap.mode-select preference which is number and set it to `1` (for only compact mode) or `2` (for both compact and non compact mode).
 
 ---
 
