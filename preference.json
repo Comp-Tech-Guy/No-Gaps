@@ -1,0 +1,18 @@
+[
+    {
+        "type": "dropdown",
+        "label": "Choose mode for No Gaps",
+        "property": "no-gap-mode-select",
+        "default":1,
+        "options": [
+            {
+                "label": "No Gaps only compact mode",
+                "value": 1
+            },
+            {
+                "label": "Both non compact and compact mode",
+                "value": 2
+            }
+        ]
+    }
+]
