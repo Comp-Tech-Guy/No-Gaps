@@ -4,6 +4,26 @@ A **minimalist UI enhancement** that removes unnecessary borders and gaps, creat
 
 ---
 
+### Previews
+<details>
+  <summary>Click to see the Previews</summary>
+  
+  - Compact Mode
+  ![Compact Mode Look](images/CompactMode.png)
+
+  - Compact Mode With TopBar
+  ![Compact Mode With TopBar](images/CompactModeTopBar.png)
+
+  - Non Compact Mode
+  ![Non Compact Mode](images/NonCompactMode.png)
+
+  - Non Compact Mode With TopBar
+  ![Non Compact Mode With TopBar](images/NonCompactModeTopBar.png)
+
+</details>
+
+---
+
 ### 🧩 Overview
 **No-Gaps** focuses on:
 - Eliminating borders and visual clutter  
