@@ -1,5 +1,5 @@
 /* Both Non Compact and Compact Mode */
-@media (-moz-pref("no-gap-mode-select", 2)){
+@media (-moz-pref("no-gap.mode-select", 2)){
   #zen-appcontent-wrapper #zen-tabbox-wrapper{
     margin:0px !important; /* To remove the extra border gaps */
     position: absolute !important; /* To remove the top navbar border gap */
@@ -27,6 +27,3 @@
     z-index: -10;
   }
 }
-
-
-
