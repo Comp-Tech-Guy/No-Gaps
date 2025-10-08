@@ -18,9 +18,10 @@ This mod is proudly published by **[Vertex](https://github.com/Vertex-Mods)** �
 
 > 🔗 **Sine Mod Manager:** [https://github.com/CosmoCreeper/Sine](https://github.com/CosmoCreeper/Sine)
 
-1. Download and install **Sine**.  
-2. Open the Sine Mod Manager and search for **No-Gaps**.  
-3. Click **Install** — that’s it!  
+1. Go to `about:config` and search for `toolkit.legacyUserProfileCustomizations.stylesheets`, then set it to `true`. 
+2. Download and install **Sine**.  
+3. Open the Sine Mod Manager and search for **No-Gaps**.  
+4. Click **Install** — that’s it!  
 
 This method automatically handles setup and updates for you.
 
