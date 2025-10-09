@@ -15,5 +15,12 @@
                 "value": 2
             }
         ]
+    },
+    {
+        "type": "checkbox",
+        "label": "Enable to remove border radius",
+        "property": "no-gap.border",
+        "default": true
     }
 ]
+
