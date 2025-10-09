@@ -8,7 +8,7 @@ A **minimalist UI enhancement** that removes unnecessary borders and gaps, creat
 
 - [ ] Removing gap when in split mode.
 - [x] Retained the animation of the topbar i.e, minimize, maximize, close and bookmars top bar.
-- [ ] Experimental border control
+- [x] Experimental border control
 
 ---
 
