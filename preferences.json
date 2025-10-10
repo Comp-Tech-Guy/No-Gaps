@@ -18,9 +18,10 @@
     },
     {
         "type": "checkbox",
-        "label": "Enable to remove border radius",
+        "label": "Enable to remove border radius (Makes everything not rounded)",
         "property": "no-gap.border",
         "default": true
     }
 ]
+
 
