@@ -2,7 +2,7 @@
     {
         "type": "dropdown",
         "value":"number",
-        "label": "Choose mode for No Gaps",
+        "label": "Choose mode for No Gaps (This is still for single toolbar)",
         "property": "no-gap.mode-select",
         "default":2,
         "options": [
@@ -23,5 +23,6 @@
         "default": true
     }
 ]
+
 
 
