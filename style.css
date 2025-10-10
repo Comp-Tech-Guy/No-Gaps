@@ -1,11 +1,11 @@
 /* Only in Compact Mode */
+@media (-moz-pref("no-gap.border")){
+  :root{
+    --zen-webview-border-radius: 0.5px;
+  } 
+}
 @media (-moz-pref("no-gap.mode-select", 1)) {
-  @media (-moz-pref("no-gap.border")){
-    :root{
-      --zen-webview-border-radius: 0.5px;
-    } 
-  }
-  :root[zen-compact-mode="true"]:not([customizing]) {
+  :root[zen-compact-mode="true"][zen-single-toolbar="true"]:not([customizing]) {
     #zen-appcontent-wrapper #zen-tabbox-wrapper {
       margin: 0px !important;
       /* To remove the extra border gaps */
@@ -39,11 +39,6 @@
 
 /* Both Non Compact and Compact Mode */
 @media (-moz-pref("no-gap.mode-select", 2)) {
-  @media (-moz-pref("no-gap.border")){
-    :root{
-      --zen-webview-border-radius: 0.5px;
-    } 
-  }
   
   #zen-appcontent-wrapper #zen-tabbox-wrapper {
     margin: 0px !important;
