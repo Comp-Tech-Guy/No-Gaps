@@ -1,9 +1,9 @@
-/* Only in Compact Mode */
 @media (-moz-pref("no-gap.border")){
   :root{
     --zen-webview-border-radius: 0.5px;
   } 
 }
+/* Only in Compact Mode */
 @media (-moz-pref("no-gap.mode-select", 1)) {
   :root[zen-compact-mode="true"][zen-single-toolbar="true"]:not([customizing]) {
     #zen-appcontent-wrapper #zen-tabbox-wrapper {
@@ -125,6 +125,10 @@
 
     body:has(#zen-appcontent-navbar-wrapper[zen-has-hover="true"]) #browser::before{
       opacity: 1 !important;
+    }
+    
+    #zen-appcontent-navbar-container::after{
+      background:transparent !important;
     }
   }
 }
