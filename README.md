@@ -67,6 +67,7 @@ This method automatically handles setup and updates for you.
 5. Inside that folder, open the `chrome` directory (create one if it doesn’t exist).  
 6. Place the mod files inside the `chrome` folder.  
 7. Open `about:config` and add no-gap.mode-select preference which is number and set it to `1` (for only compact mode) or `2` (for both compact and non compact mode).
+8. Add no-gap.border in `about:config` and set it boolean and make it `true`.
 
 ---
 
