@@ -17,7 +17,10 @@
 
     #zen-appcontent-navbar-wrapper, #zen-appcontent-wrapper {
       position: relative; /* To have every absolute position element to be inside this wrapper */
-      backdrop-filter: blur(40px) !important;
+    }
+
+    #zen-appcontent-navbar-wrapper{
+      backdrop-filter: blur(30px) !important;
     }
 
     /* To have a background color */
@@ -52,7 +55,10 @@
 
     #zen-appcontent-navbar-wrapper, #zen-appcontent-wrapper {
       position: relative; /* To have every absolute position element to be inside this wrapper */
-      backdrop-filter: blur(40px) !important;
+    }
+
+    #zen-appcontent-navbar-wrapper{
+      backdrop-filter: blur(30px) !important;
     }
 
     /* To have a background color */
@@ -68,4 +74,5 @@
     }
   }
 }
+
 
