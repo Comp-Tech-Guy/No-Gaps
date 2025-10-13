@@ -1,9 +1,9 @@
-/* Only in Compact Mode */
 @media (-moz-pref("no-gap.border")){
   :root{
     --zen-webview-border-radius: 0.5px;
   } 
 }
+/* Only in Compact Mode */
 @media (-moz-pref("no-gap.mode-select", 1)) {
   :root[zen-compact-mode="true"][zen-single-toolbar="true"]:not([customizing]) {
     #zen-appcontent-wrapper #zen-tabbox-wrapper {
@@ -13,6 +13,24 @@
       /* To remove the top navbar border gap */
       height: 100% !important;
       width: 100% !important;
+    }
+
+    #browser::before{
+      content: "";
+      position: absolute;
+      width: 100% !important;
+      height: 30px !important;
+      z-index: -100;
+      filter:blur(0.1px);
+      background-color: rgba(0, 0, 0, 1) !important;
+      top:0 !important;
+      right:0 !important;
+      opacity: 0;
+      transition: opacity 0.3s ease-in;
+    }
+
+    body:has(#zen-appcontent-navbar-wrapper[zen-has-hover="true"]) #browser::before{
+      opacity: 1 !important;
     }
 
     #zen-appcontent-navbar-wrapper, #zen-appcontent-wrapper {
@@ -27,7 +45,7 @@
     #zen-appcontent-navbar-container:before {
       content: "";
       position: absolute;
-      background: rgba(0, 0, 0, 0.5);
+      /* background: rgba(0, 0, 0, 0.5); */
       width: 100%;
       height: 100%;
       top: 0;
@@ -60,12 +78,29 @@
     #zen-appcontent-navbar-wrapper{
       backdrop-filter: blur(30px) !important;
     }
-
-    /* To have a background color */
-    #zen-appcontent-navbar-container:before {
+     
+    /* #browser::before{
       content: "";
       position: absolute;
-      background: rgba(0, 0, 0, 0.5);
+      width: 80% !important;
+      height: var(--container-width) !important;
+      z-index: -100 !important;
+      filter:blur(0.1px);
+      background-color: rgba(0, 0, 0, 1) !important;
+      top:0 !important;
+      right:0 !important;
+      opacity: 0;
+    } */
+
+    body:has(#zen-appcontent-navbar-wrapper[zen-has-hover="true"]) #browser::before{
+      opacity: 1 !important;
+    }
+
+    /* To have a background color */
+    #zen-appcontent-navbar-container::after {
+      content: "";
+      position: absolute;
+      /* background: rgba(0, 0, 0, 0.5); */
       width: 100%;
       height: 100%;
       top: 0;
@@ -74,5 +109,3 @@
     }
   }
 }
-
-
