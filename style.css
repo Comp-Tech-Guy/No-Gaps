@@ -8,10 +8,8 @@
 @media (-moz-pref("no-gap.mode-select", 1)) {
   :root[zen-compact-mode="true"][zen-single-toolbar="true"]:not([customizing]) {
     #zen-appcontent-wrapper #zen-tabbox-wrapper {
-      margin: 0px !important;
-      /* To remove the extra border gaps */
-      position: absolute !important;
-      /* To remove the top navbar border gap */
+      margin: 0px !important;/* To remove the extra border gaps */
+      position: absolute !important;/* To remove the top navbar border gap */
       height: 100% !important;
       width: 100% !important;
     }
@@ -64,6 +62,15 @@
     #tabbrowser-tabpanels .browserSidebarContainer .browserSidebarContainer{
       border-radius: 0px;
     }
+
+    /* Remove gap between the split tabs */
+    .browserSidebarContainer[zen-split="true"]{
+      margin:0px !important;
+    }
+    
+    #tabbrowser-tabbox[zen-split-view="true"] #tabbrowser-tabpanels{
+      margin:0px !important;
+    }
   }
 }
 
@@ -71,10 +78,8 @@
 @media (-moz-pref("no-gap.mode-select", 2)) {
   :root[zen-single-toolbar="true"]{
     #zen-appcontent-wrapper #zen-tabbox-wrapper {
-      margin: 0px !important;
-      /* To remove the extra border gaps */
-      position: absolute !important;
-      /* To remove the top navbar border gap */
+      margin: 0px !important;/* To remove the extra border gaps */
+      position: absolute !important;/* To remove the top navbar border gap */
       height: 100% !important;
       width: 100% !important;
     }
@@ -103,6 +108,15 @@
     /* body:has(#zen-appcontent-navbar-wrapper[zen-has-hover="true"]) #browser::before{
       opacity: 1 !important;
     } */
+
+    /* Remove gap between the split tabs */
+    .browserSidebarContainer[zen-split="true"]{
+      margin:0px !important;
+    }
+    
+    #tabbrowser-tabbox[zen-split-view="true"] #tabbrowser-tabpanels{
+      margin:0px !important;
+    }
 
     /* To have a background color */
     #zen-appcontent-navbar-container::after {
@@ -142,4 +156,5 @@
     } 
   }
 }
+
 
