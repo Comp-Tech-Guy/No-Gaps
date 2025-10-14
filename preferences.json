@@ -24,11 +24,12 @@
     },
     {
         "type": "checkbox",
-        "label": "Enable to add translucent look to your topBar and match your theme (experimental)",
+        "label": "Enable to add translucent look to your topBar and match your theme. (experimental) Works only in compact mode",
         "property": "no-gap.transparency",
         "default": false
     }
 ]
+
 
 
 
