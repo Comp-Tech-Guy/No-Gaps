@@ -91,23 +91,6 @@
     #zen-appcontent-navbar-wrapper{
       backdrop-filter: blur(30px) !important;
     }
-     
-    /* #browser::before{
-      content: "";
-      position: absolute;
-      width: 80% !important;
-      height: var(--container-width) !important;
-      z-index: -100 !important;
-      filter:blur(0.1px);
-      background-color: rgba(0, 0, 0, 1) !important;
-      top:0 !important;
-      right:0 !important;
-      opacity: 0;
-    } */
-
-    /* body:has(#zen-appcontent-navbar-wrapper[zen-has-hover="true"]) #browser::before{
-      opacity: 1 !important;
-    } */
 
     /* Remove gap between the split tabs */
     .browserSidebarContainer[zen-split="true"]{
@@ -156,5 +139,6 @@
     } 
   }
 }
+
 
 
