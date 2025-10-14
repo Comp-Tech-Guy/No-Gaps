@@ -1,6 +1,6 @@
 # 🧱 No-Gaps
 
-A **minimalist UI enhancement** that removes unnecessary borders and gaps, creating a **cleaner, edge-to-edge look** for your browser — perfect for **split-screen mode** and maximizing screen real estate.
+A **minimalist UI enhancement** that removes unnecessary borders and gaps, creating a **cleaner, edge-to-edge look** for your browser — perfect for **split-screen mode** and maximizing screen real estate (**Still working on the split mode gap**).
 
 **THIS JUST ONLY WORKS FOR SINGLE TOOLBAR. I AM WORKING ON TO BE COMPATIBLE WITH MULTIPLE TOOLBAR**
 
