@@ -1,7 +1,7 @@
 @media (-moz-pref("no-gap.border")){
-  :root{
-    --zen-webview-border-radius: 0.5px;
-  } 
+  .browserSidebarContainer {
+      border-radius: 0.5px !important;
+   }
 }
 
 /* Only in Compact Mode */
@@ -57,10 +57,6 @@
       top: 0;
       left: 0;
       z-index: -10;
-    }
-    
-    #tabbrowser-tabpanels .browserSidebarContainer .browserSidebarContainer{
-      border-radius: 0px;
     }
 
     /* Remove gap between the split tabs */
