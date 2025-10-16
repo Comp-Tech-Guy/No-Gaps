@@ -1,6 +1,6 @@
 @media (-moz-pref("no-gap.border")){
-  .browserSidebarContainer {
-      border-radius: 0.5px !important;
+  #zen-appcontent-wrapper, #zen-tabbox-wrapper, #tabbrowser-tabbox, #tabbrowser-tabpanels, .browserSidebarContainer {
+      border-radius: 0.1px !important;
    }
 }
 
@@ -135,6 +135,7 @@
     } 
   }
 }
+
 
 
 
