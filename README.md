@@ -10,6 +10,7 @@ A **minimalist UI enhancement** that removes unnecessary borders and gaps, creat
 
 - [x] Removing gap when in split mode.
 - [ ] Adding optional transparency look to the topbar
+- [ ] Take control over the Border Radius
 - [ ] Compatibilty in all layout modes
 - [x] Retained the animation of the topbar i.e, minimize, maximize, close and bookmars top bar.
 - [x] Experimental border control
