@@ -23,5 +23,11 @@
      		margin:0px !important;
     	}
 	}
+	:root[zen-compact-mode="true"]{
+		.browserSidebarContainer{
+			border-radius:0.1px !important;
+		}
+	}
 }
+
 
