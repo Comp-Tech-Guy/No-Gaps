@@ -8,8 +8,8 @@
 			margin:0px !important;
 		}
 		#tabbrowser-tabbox[zen-split-view="true"] #tabbrowser-tabpanels{
-      margin:0px !important;
-    }
+      		margin:0px !important;
+    	}
 	}
 }
 
@@ -20,7 +20,8 @@
 			margin:0px !important;
 		}
 		#tabbrowser-tabbox[zen-split-view="true"] #tabbrowser-tabpanels{
-      margin:0px !important;
-    }
+     		margin:0px !important;
+    	}
 	}
 }
+
