@@ -15,20 +15,9 @@
                 "value": 2
             }
         ]
-    },
-    {
-        "type": "checkbox",
-        "label": "Enable to remove border radius (Makes everything not rounded)",
-        "property": "no-gap.border",
-        "default": true
-    },
-    {
-        "type": "checkbox",
-        "label": "Enable to add translucent look to your topBar and match your theme. Works only in compact mode (EXPERIMENTAL)",
-        "property": "no-gap.transparency",
-        "default": false
     }
 ]
+
 
 
 
