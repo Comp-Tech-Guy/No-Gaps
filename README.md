@@ -71,6 +71,7 @@ This method automatically handles setup and updates for you.
 ### 🧷 Credits
 - Publisher: [Vertex Mods](https://github.com/Vertex-Mods)  
 - Mod Manager: [Sine](https://github.com/CosmoCreeper/Sine)
+- Owner: [CompTechGuy](https://github.com/Comp-Tech-Guy)
 
 ---
 
