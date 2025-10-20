@@ -68,6 +68,13 @@ This method automatically handles setup and updates for you.
 
 ---
 
+### 🔍 Any Help/Issues/Suggestions
+
+- If you need any help or having issues or some bug that you found out, Please contact us through discord or create an issue in the github.
+- If you have any suggestion, we are always welcome you to say it. To say it, just dm me or ping me in discord or create it as an issue in github.
+
+---
+
 ### 🧷 Credits
 - Publisher: [Vertex Mods](https://github.com/Vertex-Mods)  
 - Mod Manager: [Sine](https://github.com/CosmoCreeper/Sine)
