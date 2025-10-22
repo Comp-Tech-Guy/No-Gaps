@@ -68,10 +68,12 @@ This method automatically handles setup and updates for you.
 
 ---
 
-### 🔍 Any Help/Issues/Suggestions
+### 🔍 Help, Issues, and Suggestions
 
-- If you need any help or having issues or some bug that you found out, Please contact us through discord or create an issue in the github.
-- If you have any suggestion, we are always welcome you to say it. To say it, just dm me or ping me in discord or create it as an issue in github.
+- If you need any help or encounter a bug, please don’t hesitate to reach out.  
+- You can contact us through **Discord** or by **creating an issue** on **GitHub**.  
+- If you have a suggestion or feedback, we’d love to hear it!  
+- You can **DM or ping me on Discord**, or **submit your suggestion as a GitHub issue**.
 
 ---
 
