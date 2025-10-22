@@ -1,5 +1,5 @@
 @media (-moz-pref("no-gap.mode-select", 1)){
-	:root[zen-compact-mode="true"]{
+	:root[zen-compact-mode="true"]:not([customizing]){
 		--zen-element-separation: 0px !important;
 		.browserSidebarContainer{
 			border-radius:0.1px !important;
@@ -27,3 +27,4 @@
 		}
 	}
 }
+
