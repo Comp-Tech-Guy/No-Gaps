@@ -2,7 +2,7 @@
 
 A **minimalist UI enhancement** that removes unnecessary borders and gaps, creating a **cleaner, edge-to-edge look** for your browser — perfect for **split-screen mode** and maximizing screen real estate.
 
-**THIS JUST ONLY WORKS FOR SINGLE TOOLBAR. I AM WORKING ON TO BE COMPATIBLE WITH MULTIPLE TOOLBAR**
+**This mod is almost compatible with all layouts and if you find any error please dm me**
 
 ---
 
