@@ -1,6 +1,6 @@
 [
     {
-        "type": "checkbox",
+        "type": "dropdown",
         "value":"number",
         "label": "Choose mode for No Gaps (This is still for single toolbar)",
         "property": "zen.theme.content-element-separation",
@@ -13,6 +13,7 @@
         ]
     }
 ]
+
 
 
 
