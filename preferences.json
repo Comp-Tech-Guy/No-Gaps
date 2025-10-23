@@ -1,22 +1,19 @@
 [
     {
-        "type": "dropdown",
+        "type": "checkbox",
         "value":"number",
         "label": "Choose mode for No Gaps (This is still for single toolbar)",
-        "property": "no-gap.mode-select",
-        "default":2,
+        "property": "zen.theme.content-element-separation",
+        "default":0,
         "options": [
             {
-                "label": "Only compact mode",
-                "value": 1
-            },
-            {
                 "label": "Both non compact and compact mode",
-                "value": 2
+                "value": 0
             }
         ]
     }
 ]
+
 
 
 
