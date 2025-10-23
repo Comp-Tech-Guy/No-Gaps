@@ -13,18 +13,20 @@
 } */
 
 @media (-moz-pref("zen.theme.content-element-separation", 0)) {
-	:root{
-		.browserSidebarContainer[zen-split="true"]{
-			margin:0px !important;
-		}
-		#tabbrowser-tabbox[zen-split-view="true"] #tabbrowser-tabpanels{
-     		margin:0px !important;
-    	}
-		.browserSidebarContainer{
-			border-radius:0.1px !important;
-		}
+	.browserSidebarContainer[zen-split="true"]{
+    	margin:0px !important;
+	}
+	#tabbrowser-tabbox[zen-split-view="true"] #tabbrowser-tabpanels{
+    	margin:0px !important;
+		position: relative;
+	}
+	.browserSidebarContainer{
+    	border-radius:0.1px !important;
+	}
+	.deck-selected{
+		z-index: 100000000 !important;
+	}
+	.browserSidebarContainer:not(.deck-selected) {
+		z-index: 0 !important;
 	}
 }
-
-
-
