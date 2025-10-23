@@ -1,4 +1,4 @@
-@media (-moz-pref("no-gap.mode-select", 1)){
+/* @media (-moz-pref("no-gap.mode-select", 1)){
 	:root[zen-compact-mode="true"]:not([customizing]){
 		.browserSidebarContainer{
 			border-radius:0.1px !important;
@@ -10,9 +10,9 @@
       		margin:0px !important;
     	}
 	}
-}
+} */
 
-@media (-moz-pref("no-gap.mode-select", 2)) {
+@media (-moz-pref("zen.theme.content-element-separation", 0)) {
 	:root{
 		.browserSidebarContainer[zen-split="true"]{
 			margin:0px !important;
@@ -25,5 +25,6 @@
 		}
 	}
 }
+
 
 
