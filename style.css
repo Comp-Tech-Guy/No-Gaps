@@ -27,11 +27,26 @@
 	}
 
 	.deck-selected {
-		z-index: 100000000 !important;
+		z-index: 1 !important;
 	}
 
 	.browserSidebarContainer:not(.deck-selected) {
 		z-index: 0 !important;
+	}
+
+	.zen-split-view-splitter:hover {
+		background: var(--zen-primary-color) !important;
+		filter: brightness(0.5);
+	}
+
+	.zen-split-view-splitter[orient="vertical"] {
+		width: 5px !important;
+		margin-left: -3px !important;
+	}
+
+	.zen-split-view-splitter[orient="horizontal"] {
+		height: 5px !important;
+		margin-top: 3px !important;
 	}
 }
 
