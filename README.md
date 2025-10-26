@@ -4,8 +4,6 @@ A **minimalist UI enhancement** that removes unnecessary borders and gaps, creat
 
 **This mod is almost compatible with all layouts and if you find any error please dm me**
 
-**I am working on this to make everything work with no issues since I changed some logic in a simplest ways by using some default given features in about:config and then adding some additional features. So this is the most minimalistic way of no gap**
-
 ---
 
 ### To-Do List
