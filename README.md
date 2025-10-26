@@ -10,6 +10,7 @@ A **minimalist UI enhancement** that removes unnecessary borders and gaps, creat
 
 - [x] Changing the Whole logic of no-gap CSS
 - [x] Increasing the compatibility of all modes
+- [ ] Compatibility with right sided sidebar
 
 ---
 
