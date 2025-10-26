@@ -9,7 +9,7 @@ A **minimalist UI enhancement** that removes unnecessary borders and gaps, creat
 ### To-Do List
 
 - [x] Changing the Whole logic of no-gap CSS
-- [x] Increasing the compatibility of all modes
+- [ ] Multiple toolbar compact mode when the top toolbar is not hidden
 - [ ] Compatibility with right sided sidebar
 
 ---
