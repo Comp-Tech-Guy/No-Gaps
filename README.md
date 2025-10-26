@@ -8,7 +8,8 @@ A **minimalist UI enhancement** that removes unnecessary borders and gaps, creat
 
 ### To-Do List
 
-- [ ] Changing the Whole logic of no-gap CSS
+- [x] Changing the Whole logic of no-gap CSS
+- [x] Increasing the compatibility of all modes
 
 ---
 
