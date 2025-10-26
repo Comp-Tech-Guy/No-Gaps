@@ -1,3 +1,4 @@
+/* Only Compact Mode */
 @media (-moz-pref("no-gap.mode-select", 0)) {
 	:root[zen-compact-mode="true"]:not([customizing]) {
 		/* No-Gap Remove code */
@@ -53,6 +54,7 @@
 	}
 }
 
+/* Both Compact and Non Compact Mode */
 @media (-moz-pref("no-gap.mode-select", 1)) {
 	/* No-Gap Remove code */
 	.browserSidebarContainer {
@@ -111,3 +113,4 @@
 		outline: none !important;
 	}
 }
+
