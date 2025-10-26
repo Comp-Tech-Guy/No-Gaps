@@ -27,7 +27,7 @@
 			}
 
 			#zen-appcontent-navbar-wrapper[zen-has-hover="true"] {
-				height: 34px !important;
+				height: 38px !important;
 			}
 		}
 
@@ -86,8 +86,7 @@
 		margin: 0px !important;
 	}
 
-	:root[zen-single-toolbar="true"],
-	:root[zen-compact-mode="true"]:not([customizing]) {
+	:root[zen-single-toolbar="true"][zen-compact-mode="true"]:not([customizing]) {
 		#zen-appcontent-navbar-wrapper {
 			min-height: 0.1px !important;
 			height: 0.1px !important;
@@ -96,6 +95,19 @@
 		#zen-appcontent-navbar-wrapper[zen-has-hover="true"] {
 			height: 34px !important;
 		}
+	}
+	
+	@media -moz-pref("zen.view.compact.hide-toolbar") {
+		:root[zen-compact-mode="true"]{
+			#zen-appcontent-navbar-wrapper {
+				min-height: 0.1px !important;
+				height: 0.1px !important;
+			}
+
+			#zen-appcontent-navbar-wrapper[zen-has-hover="true"] {
+				height: 38px !important;
+			}
+		}			
 	}
 
 	/* Tab Edits for split tab view */
