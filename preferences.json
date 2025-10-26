@@ -2,17 +2,17 @@
     {
         "type": "dropdown",
         "value": "number",
-        "label": "Choose mode for No Gaps (This is still for single toolbar). Make it turn OFF and turn off the mod or uninstall the mod",
-        "property": "zen.theme.content-element-separation",
-        "default": 0,
+        "label": "Choose mode for No Gaps mode",
+        "property": "no-gap.mode-select",
+        "default": 1,
         "options": [
             {
-                "label": "Turn off to remove the gap (DO THIS BEFORE REMOVING THE MOD)",
-                "value": 8
+                "label": "Only Compact Mode",
+                "value": 0
             },
             {
                 "label": "Both non compact and compact mode",
-                "value": 0
+                "value": 1
             }
         ]
     },
@@ -23,4 +23,3 @@
         "property": "no-gaps.remove-split-highlight"
     }
 ]
-
