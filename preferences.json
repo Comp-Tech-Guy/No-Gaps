@@ -2,7 +2,7 @@
     {
         "type": "dropdown",
         "value": "number",
-        "label": "Choose mode for No Gaps (This is still for single toolbar)",
+        "label": "Choose mode for No Gaps (This is still for single toolbar). Make it turn OFF and turn off the mod or uninstall the mod",
         "property": "zen.theme.content-element-separation",
         "default": 0,
         "options": [
@@ -23,3 +23,4 @@
         "property": "no-gaps.remove-split-highlight"
     }
 ]
+
