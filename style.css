@@ -1,3 +1,4 @@
+/* Only Compact Mode */
 @media (-moz-pref("no-gap.mode-select", 0)) {
 	:root[zen-single-toolbar="true"][zen-compact-mode="true"]:not([customizing]) {
 		#zen-appcontent-navbar-wrapper {
@@ -66,6 +67,7 @@
 	}
 }
 
+/* Both Compact and Non Compact Mode */
 @media (-moz-pref("no-gap.mode-select", 1)) {
 	/* No-Gap Remove code */
 	:root[zen-single-toolbar="true"] .browserSidebarContainer {
@@ -144,8 +146,16 @@
 	}
 }
 
+/* Remove Highlight on split tabs */
 @media (-moz-pref("no-gaps.remove-split-highlight", true)) {
 	.browserSidebarContainer[zen-split="true"] {
 		outline: none !important;
 	}
+}
+
+/* Remove box shadow */
+@media (-moz-pref("no-gaps.remove-box-shadow", true)){
+  .browserSidebarContainer{
+	 box-shadow: none !important;
+  }
 }
