@@ -8,7 +8,7 @@ A **minimalist UI enhancement** that removes unnecessary borders and gaps, creat
 
 ### To-Do List
 
-- [x] Changing the Whole logic of no-gap CSS
+- [x] Removing the box shadow
 - [x] Multiple toolbar compact mode when the top toolbar is not hidden
 - [ ] Compatibility with right sided sidebar
 - [ ] Making sure that every scenario that the mod doesn't break
