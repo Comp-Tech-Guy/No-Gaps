@@ -1,5 +1,6 @@
 /* Only Compact Mode */
 @media (-moz-pref("no-gap.mode-select", 0)) {
+	/* Remove height from the topbar in just singlular toolbar */
 	:root[zen-single-toolbar="true"][zen-compact-mode="true"]:not([customizing]) {
 		#zen-appcontent-navbar-wrapper {
 			min-height: 0.1px !important;
@@ -21,6 +22,7 @@
 			margin: 0px !important;
 		}
 
+		/* To remove the height from the topbar when the hide toolbar is true */
 		@media -moz-pref("zen.view.compact.hide-toolbar") {
 			#zen-appcontent-navbar-wrapper {
 				min-height: 0.1px !important;
@@ -159,3 +161,4 @@
 	 box-shadow: none !important;
   }
 }
+
