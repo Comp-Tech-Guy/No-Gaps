@@ -11,7 +11,7 @@ A **minimalist UI enhancement** that removes unnecessary borders and gaps, creat
 - [x] Removing the box shadow
 - [x] Multiple toolbar compact mode when the top toolbar is not hidden
 - [x] Compatibility with right sided sidebar
-- [ ] Making sure that every scenario that the mod doesn't break
+- [x] Making sure that every scenario that the mod doesn't break
 - [ ] Optional Clean minimal look of the topbar who wants without any jankiness of the browser movement when hovering on top
 
 ---
