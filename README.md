@@ -11,7 +11,7 @@ A **minimalist UI enhancement** that removes unnecessary borders and gaps, creat
 ---
 
 ### Previews
-<details>
+<!-- <details>
   <summary>Click to see the Previews</summary>
   
   - Compact Mode
@@ -26,7 +26,9 @@ A **minimalist UI enhancement** that removes unnecessary borders and gaps, creat
   - Non Compact Mode With TopBar
   ![Non Compact Mode With TopBar](images/NonCompactModeTopBar.png)
 
-</details>
+</details> -->
+
+Coming soon....
 
 ---
 
