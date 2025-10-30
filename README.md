@@ -2,14 +2,10 @@
 
 A **minimalist UI enhancement** that removes unnecessary borders and gaps, creating a **cleaner, edge-to-edge look** for your browser — perfect for **split-screen mode** and maximizing screen real estate.
 
-**This mod is almost compatible with all layouts and if you find any error please dm me**
-
 ---
 
 ### To-Do List
 
-- [x] Compatibility with right sided sidebar
-- [x] Making sure that every scenario that the mod doesn't break
 - [ ] Optional Clean minimal look of the topbar who wants without any jankiness of the browser movement when hovering on top
 
 ---
