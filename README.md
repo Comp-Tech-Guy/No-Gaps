@@ -2,6 +2,8 @@
 
 A **minimalist UI enhancement** that removes unnecessary borders and gaps, creating a **cleaner, edge-to-edge look** for your browser — perfect for **split-screen mode** and maximizing screen real estate.
 
+<img width="240" alt="zen-badge-light" src="https://github.com/user-attachments/assets/d6ab3ddf-6630-4062-92d0-22497d2a3f9a" />
+
 ---
 
 ### To-Do List
