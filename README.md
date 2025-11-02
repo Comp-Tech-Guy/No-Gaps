@@ -9,6 +9,7 @@ A **minimalist UI enhancement** that removes unnecessary borders and gaps, creat
 ### To-Do List
 
 - [ ] Optional Clean minimal look of the topbar who wants without any jankiness of the browser movement when hovering on top
+- [ ] Fixing Bookmark issue when in multiple toolbar compact mode
 
 ---
 
