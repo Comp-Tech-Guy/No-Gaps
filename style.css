@@ -16,8 +16,8 @@
 				#tabbrowser-tabpanels[has-toolbar-hovered] & {
 					margin-top: -34px !important;
 				}
-		  }
-    }
+			}
+		}
 	}
 
 	:root[zen-compact-mode="true"]:not([customizing]) {
@@ -186,5 +186,6 @@
 	 box-shadow: none !important;
   }
 }
+
 
 
