@@ -8,7 +8,7 @@
 			height: 0.1px !important;
 		}
 
-		#zen-appcontent-navbar-wrapper[zen-has-hover="true"] {
+		#zen-appcontent-navbar-wrapper[zen-has-hover="true"], #zen-appcontent-navbar-wrapper[has-popup-menu="true"] {
 			height: 34px !important;
 		}
 		@media (not -moz-pref('zen.view.shift-down-site-on-hover')) and (not ((-moz-pref('zen.view.experimental-no-window-controls') or (not -moz-pref('zen.view.hide-window-controls'))) and -moz-pref('zen.view.use-single-toolbar'))) {
@@ -121,7 +121,7 @@
 			height: 0.1px !important;
 		}
 
-		#zen-appcontent-navbar-wrapper[zen-has-hover="true"] {
+		#zen-appcontent-navbar-wrapper[zen-has-hover="true"], #zen-appcontent-navbar-wrapper[has-popup-menu="true"] {
 			height: 34px !important;
 		}
 		
