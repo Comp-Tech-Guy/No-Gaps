@@ -8,8 +8,7 @@ A **minimalist UI enhancement** that removes unnecessary borders and gaps, creat
 
 ### To-Do List
 
-- [x] Fixing Bookmark issue when in multiple toolbar compact mode
-- [x] Fixing the top bar moving a little bit of the website down
+- [ ] Waiting for recommendations and bug reports
 
 ---
 
