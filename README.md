@@ -9,6 +9,7 @@ A **minimalist UI enhancement** that removes unnecessary borders and gaps, creat
 ### To-Do List
 
 - [ ] Waiting for recommendations and bug reports
+- [ ] A fix with the topbar height slow animation when changing from non-compact to compact and vice versa
 
 ---
 
