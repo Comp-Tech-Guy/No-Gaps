@@ -66,7 +66,9 @@ This method automatically handles setup and updates for you.
 4. Under your profile, click **“Open Folder”** which the folder path says *Roaming* in between.  
 5. Inside that folder, open the `chrome` directory (create one if it doesn’t exist).  
 6. Place the mod files inside the `chrome` folder.  
-7. Open `about:config` and search for `zen.theme.content-element-separation` preference which is number and set it to `0`.
+7. Open `about:config` and search for `no-gap.mode-select` and click add button with number option selected and then set it to `0`(Compact Mode Only) or `1`(Both Compact and Non-Compact Mode).
+8. Search for `no-gaps.remove-split-highlight` and click add button with boolean checked and then set it to `true`(to remove highlight when in split mode) or `false`.
+9. Search for `no-gaps.remove-box-shadow` and click add button with boolean checked and then set it to `true`(to remove shadow emitted to the sidebar from the website border around).
 
 ---
 
