@@ -64,11 +64,16 @@ This method automatically handles setup and updates for you.
 2. Download the **latest release** of *No-Gaps* from this repository.  
 3. Open `about:profiles` in Firefox.  
 4. Under your profile, click **“Open Folder”** which the folder path says *Roaming* in between.  
-5. Inside that folder, open the `chrome` directory (create one if it doesn’t exist).  
-6. Place the mod files inside the `chrome` folder.  
-7. Open `about:config` and search for `no-gap.mode-select` and click add button with number option selected and then set it to `0`(Compact Mode Only) or `1`(Both Compact and Non-Compact Mode).
-8. Search for `no-gaps.remove-split-highlight` and click add button with boolean checked and then set it to `true`(to remove highlight when in split mode) or `false`.
-9. Search for `no-gaps.remove-box-shadow` and click add button with boolean checked and then set it to `true`(to remove shadow emitted to the sidebar from the website border around).
+5. Inside that folder, open the `chrome` directory (create one if it doesn’t exist).
+7. Place the mod files inside the `chrome` folder.
+9. Open `about:config` and search for `no-gap.mode-select` and click add button with number option selected and then set it to `0` (Compact Mode Only) or `1` (Both Compact and Non-Compact Mode).
+10. Search for `no-gaps.remove-split-highlight` and click add button with boolean checked and then set it to `true` (to remove highlight when in split mode) or `false`.
+11. Search for `no-gaps.remove-box-shadow` and click add button with boolean checked and then set it to `true` (to remove shadow emitted to the sidebar from the website border around) or `false`.
+12. If you don't get how to do it just see the bottom image.
+
+Example image of setting up a config:<img width="996" height="70" alt="image" src="https://github.com/user-attachments/assets/06a2c5d5-0bd9-49e6-a93a-03b6f89eeab5" />
+1. Set the selection whether boolean, number or string
+2. Click create button to the right
 
 ---
 
