@@ -1,6 +1,6 @@
 # 🧱 No-Gaps
 
-A **minimalist UI enhancement** that removes unnecessary borders and gaps, creating a **cleaner, edge-to-edge look** for your browser — perfect for **split-screen mode** and maximizing screen real estate.
+A **minimalist UI enhancement** that removes borders and gaps, creating a **cleaner, edge-to-edge look** for your browser — perfect for **split-screen mode** and maximizing screen real estate. This is really a golden mod for you guys to use to have a seemless and minimal look that you like.
 
 <img width="240" alt="zen-badge-light" src="https://github.com/user-attachments/assets/d6ab3ddf-6630-4062-92d0-22497d2a3f9a" />
 
