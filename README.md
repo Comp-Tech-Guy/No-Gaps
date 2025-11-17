@@ -14,7 +14,7 @@ A **minimalist UI enhancement** that removes borders and gaps, creating a **clea
 ---
 
 ### Previews
-<!-- <details>
+<details>
   <summary>Click to see the Previews</summary>
   
   - Compact Mode
@@ -29,9 +29,7 @@ A **minimalist UI enhancement** that removes borders and gaps, creating a **clea
   - Non Compact Mode With TopBar
   ![Non Compact Mode With TopBar](images/NonCompactModeTopBar.png)
 
-</details> -->
-
-Coming soon....
+</details
 
 ---
 
@@ -95,4 +93,4 @@ Example image of setting up a config:<img width="996" height="70" alt="image" sr
 
 ---
 
-**Clean. Minimal. Efficient. — No-Gaps.**
+**Clean. Minimal. Efficient. Productive. Real Estate. — No-Gaps.**
