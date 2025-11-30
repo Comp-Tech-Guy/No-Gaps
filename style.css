@@ -2,6 +2,10 @@
 	transition: margin 0.2s ease;
 }
 
+#zen-appcontent-navbar-wrapper{
+	transition: height 0.2s ease !important;;
+}
+
 /* Only Compact Mode */
 @media (-moz-pref("no-gap.mode-select", 0)) {
 	/* Remove height from the topbar in just singlular toolbar */
@@ -206,6 +210,7 @@
 	 box-shadow: none !important;
   }
 }
+
 
 
 
