@@ -1,3 +1,7 @@
+#zen-tabbox-wrapper{
+	transition: margin 0.2s ease;
+}
+
 /* Only Compact Mode */
 @media (-moz-pref("no-gap.mode-select", 0)) {
 	/* Remove height from the topbar in just singlular toolbar */
@@ -202,6 +206,7 @@
 	 box-shadow: none !important;
   }
 }
+
 
 
 
