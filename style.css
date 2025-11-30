@@ -1,9 +1,5 @@
 #zen-tabbox-wrapper{
-	transition: margin 0.2s ease;
-}
-
-#zen-appcontent-navbar-wrapper{
-	transition: height 0.2s ease !important;;
+	transition: margin 0.2s ease-in !important;
 }
 
 /* Only Compact Mode */
@@ -210,6 +206,7 @@
 	 box-shadow: none !important;
   }
 }
+
 
 
 
