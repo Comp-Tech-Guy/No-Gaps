@@ -205,6 +205,10 @@
   .browserSidebarContainer{
 	 box-shadow: none !important;
   }
+	
+	#tabbrowser-tabpanels[zen-split-view="true"] .browserSidebarContainer.deck-selected{
+		box-shadow: none !important;
+	}
 }
 
 
