@@ -58,6 +58,10 @@
 		.browserSidebarContainer[zen-split="true"] {
 			margin: 0px !important;
 		}
+		
+		:has(.browserSidebarContainer[zen-split="true"]) #zen-tabbox-wrapper{
+			margin-right: 9px !important; 
+		}
 
 		#tabbrowser-tabbox[zen-split-view="true"] #tabbrowser-tabpanels {
 			margin: 0px !important;
@@ -162,6 +166,10 @@
 	/* Tab Edits for split tab view */
 	.browserSidebarContainer[zen-split="true"] {
 		margin: 0px !important;
+	}
+
+	:has(.browserSidebarContainer[zen-split="true"]) #zen-tabbox-wrapper{
+		margin-right: 9px !important; 
 	}
 
 	#tabbrowser-tabbox[zen-split-view="true"] #tabbrowser-tabpanels {
